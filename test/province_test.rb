@@ -43,6 +43,19 @@ class ProvinceTest < Minitest::Test
     assert_equal(-26, asia.shortfall)
     assert_equal(-10, asia.profit)
   end
+#**Failed tests**
+  # def test_empty_string_demand
+  #   asia = Province.new(sample_province_data)
+  #   asia.demand = ""
+  #   assert_equal("", asia.shortfall)
+  #   assert_equal("", asia.profit)
+  # end
+
+  # def test_string_for_producers
+  #   data = { name: "String producers", producers: "", demand: 30, price: 20 }
+  #   prov = Province.new(data)
+  #   assert_equal(0, prov.shortfall)
+  # end
 
 
 
